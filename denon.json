@@ -1,0 +1,14 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "env": {
+    "SECRET": "jaobkldf212 dsv keyan9-sd"
+  },
+  "scripts": {
+    "dev": {
+      "cmd": "deno run --allow-net --allow-write --allow-read --allow-plugin --allow-env --unstable app.ts"
+    },
+    "prod": {
+      "cmd": "deno run --allow-net --allow-write --allow-read --allow-plugin --allow-env --unstable app.ts"
+    }
+  }
+}
