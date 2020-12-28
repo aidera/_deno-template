@@ -13,22 +13,6 @@ const UserController = {
       ctx.response.status = 500;
     }
   },
-  addUser: async (ctx: any) => {
-    try {
-      // const users = await User.all();
-      // const user = new User();
-      // user.name = 'Polly';
-      // user.email = '1@r.t';
-      // user.password = '1@r.t';
-      // await user.save();
-      // console.log(user);
-      ctx.response.body = 1;
-      ctx.response.status = 200;
-    } catch (err) {
-      ctx.response.body = { error: true };
-      ctx.response.status = 500;
-    }
-  },
 
   getUser: async (ctx: any) => {
     const userId = ctx.params.userId;
